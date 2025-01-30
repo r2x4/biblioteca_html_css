@@ -62,16 +62,19 @@ body {
 }
 
 .right-form h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: black;
     margin: 15px 0;
+    text-align: center;
 
 }
 
 .right-form form > input{
     width: 100%;
-    padding: 10px 0;
-    font-size: 1,2 em;
+    padding: 10px 0 10px 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-align:left;
 }
 
 .right-form label {

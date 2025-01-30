@@ -17,9 +17,6 @@ html{
     box-sizing: border-box;
 }
 
-
-
-
 .container{
     max-width: 120rem;
     margin: 0 auto;
@@ -31,7 +28,6 @@ html{
 	font-size: 3rem;
 
 }
-
 
 .container-uno{
     background-color: var(--background-color);
@@ -221,7 +217,7 @@ html{
 }
 
 .banner{
-    background-image: linear-gradient(100deg, #000000,#00000020), url('imagenbanner.jpg');
+    background-image: linear-gradient(100deg, #000000,#00000020), url('../Imagenes/inicio_libro.jpg');
     height: 60rem;
     background-size: cover;
     background-position: center;
@@ -328,14 +324,15 @@ border-radius: 3rem;
 }
 
 .category-accion{
-background-image: linear-gradient(#00000080, #00000080), url('Imagen\ de\ accion.png');
+background-image: linear-gradient(#00000080, #00000080), url('../Imagenes/accion.png');
+
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
 }
 
 .category-ciencia-ficcion{
-    background-image: linear-gradient(#00000080, #00000080), url('Ciencia\ Ficcion.png');
+    background-image: linear-gradient(#00000080, #00000080), url('../Imagenes/ficcion.png');
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -343,7 +340,7 @@ background-image: linear-gradient(#00000080, #00000080), url('Imagen\ de\ accion
 }
 
 .category-comedia{
-    background-image: linear-gradient(#00000080, #00000080), url('imagen\ de\ comedia.jpeg');
+    background-image: linear-gradient(#00000080, #00000080), url('../Imagenes/comedia.jpeg');
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -351,7 +348,7 @@ background-image: linear-gradient(#00000080, #00000080), url('Imagen\ de\ accion
 }
 
 .category-romantica{
-    background-image: linear-gradient(#00000080, #00000080), url('Romantica.png');
+    background-image: linear-gradient(#00000080, #00000080), url('../Imagenes/romantica.png');
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -359,7 +356,7 @@ background-image: linear-gradient(#00000080, #00000080), url('Imagen\ de\ accion
 }
 
 .category-terror{
-    background-image: linear-gradient(#00000080, #00000080), url('Terror.png');
+    background-image: linear-gradient(#00000080, #00000080), url('../Imagenes/terror.png');
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
